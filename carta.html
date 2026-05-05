@@ -4,21 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Carta | Pixel & Pasta</title>
+    <title>Pixel & Pasta | Nuestra Carta</title>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
 
+    <!-- TOPBAR -->
     <header class="topbar">
-        <div class="logo">
+        <div class="logo-container">
+            <img src="img/logo restaurante.png" alt="logo restaurante" class="logo-img">
             <h1>PIXEL <span>&</span> PASTA</h1>
+
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="carta.html" class="active">Carta</a></li>
-                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="index.html" class="active">INICIO</a></li>
+                <li><a href="carta.html">CARTA</a></li>
+                <li><a href="reservas.html">¡RESERVA!</a></li>
+                <li><a href="sobrenosotros.html">NOSOTROS</a></li>
+
             </ul>
         </nav>
     </header>
@@ -32,63 +38,94 @@
                 <li><a href="#pizzas">PIZZAS</a></li>
                 <li><a href="#postres">POSTRES</a></li>
             </ul>
-            <div class="sidebar-box" style="margin-top: 30px;">
-                <h3>INFO TECH</h3>
-                <p>Pedidos procesados en: <br> <time>15 min</time> aprox.</p>
+            <div class="sidebar-box" style="margin-top: 40px;">
+                <h3>STATUS</h3>
+                <p>Servidor: <span style="color: var(--neon-azul);">ONLINE</span></p>
+                <p>Cocina: <span style="color: var(--neon-azul);">READY</span></p>
             </div>
-        </aside>
+    </div>
+    </aside>
 
-        <main class="contenido-principal">
-            <h2 class="seccion-titulo">NUESTROS ALGORITMOS CULINARIOS</h2>
+    <main class="contenido-principal">
+        <h2 class="seccion-titulo">NUESTROS ALGORITMOS CULINARIOS</h2>
 
-            <!-- SECCIÓN PASTAS -->
-            <section id="pastas" class="seccion-menu">
-                <h3 class="encabezado-categoría">PASTAS ARTESANALES</h3>
-                <div class="menu-cuadricula">
-                    <article class="plato">
-                        <img src="img/Trenette al pesto.jpg" alt="Trenette al pesto" class="img-plato">
-                        <h4>Trenette al pesto</h4>
-                        <p>Albahaca fresca, piñones, Parmigiano, Pecorino, ajo, aceite de oliva, patata y judías verdes.
-                        </p>
-                        <span class="precio">14.50€</span>
-                    </article>
+        <!-- SECCIÓN PASTAS -->
+        <section id="pastas" class="seccion-menu">
+            <h3 class="encabezado-categoría">PASTAS ARTESANALES</h3>
+            <div class="menu-cuadricula">
+                <article class="plato">
+                    <img src="img/Trenette al pesto.jpg" alt="Trenette al pesto" class="img-plato">
+                    <h4>Trenette al pesto</h4>
+                    <p>Albahaca fresca, piñones, Parmigiano, Pecorino, ajo, aceite de oliva, patata y
+                        judías verdes.
+                    </p>
+                    <span class="precio">14.50€</span>
+                </article>
 
-                    <article class="plato">
-                        <img src="img/Spaguetti al ragù.jpg" alt="Spaguetti al ragù" class="img-plato">
-                        <h4>Spaguetti al ragù</h4>
-                        <p>Carne de ternera y cerdo, sofrito de zanahoria, apio, cebolla, tomate y vino tinto.</p>
-                        <span class="precio">13.00€</span>
-                    </article>
+                <article class="plato">
+                    <img src="img/Spaguetti al ragù.jpg" alt="Spaguetti al ragù" class="img-plato">
+                    <h4>Spaguetti al ragù</h4>
+                    <p>Carne de ternera y cerdo, sofrito de zanahoria, apio, cebolla, tomate y vino tinto.</p>
+                    <span class="precio">13.00€</span>
+                </article>
 
-                    <article class="plato">
-                        <img src="img/Pansotti alla genovese.jpg" alt="Pansotti alla genovese" class="img-plato">
-                        <h4>Pansotti alla genovese</h4>
-                        <p>Pasta rellena de hierbas silvestres y ricotta con salsa cremosa de nueces.</p>
-                        <span class="precio">15.50€</span>
-                    </article>
-                </div>
-            </section>
+                <article class="plato">
+                    <img src="img/Pansotti alla genovese.jpg" alt="Pansotti alla genovese" class="img-plato">
+                    <h4>Pansotti alla genovese</h4>
+                    <p>Pasta rellena de hierbas silvestres y ricotta con salsa cremosa de nueces.</p>
+                    <span class="precio">15.50€</span>
+                </article>
+            </div>
+        </section>
 
-            <!-- SECCIÓN PIZZAS -->
-            <section id="pizzas" class="seccion-menu">
-                <h3 class="encabezado-categoría">PIZZAS AL HORNO DE LUZ</h3>
-                <div class="menu-cuadricula">
-                    <article class="plato">
-                        <img src="img/Diavola.jpg" alt="Pizza Diavola" class="img-plato">
-                        <h4>Diavola</h4>
-                        <p>Tomate, mozzarella, salami picante italiano y aceite de guindilla.</p>
-                        <span class="precio">12.50€</span>
-                    </article>
+        <!-- SECCIÓN PIZZAS -->
+        <section id="pizzas" class="seccion-menu">
+            <h3 class="encabezado-categoría">PIZZAS AL HORNO DE LUZ</h3>
+            <div class="menu-cuadricula">
+                <article class="plato">
+                    <img src="img/Diavola.jpg" alt="Pizza Diavola" class="img-plato">
+                    <h4>Diavola</h4>
+                    <p>Tomate, mozzarella, salami picante italiano y aceite de guindilla.</p>
+                    <span class="precio">12.50€</span>
+                </article>
 
-                    <article class="plato">
-                        <img src="img/Al Pesto.jpg" alt="Pizza Al Pesto" class="img-plato">
-                        <h4>Al Pesto</h4>
-                        <p>Base blanca de mozzarella, tomates cherry, piñones y pesto casero.</p>
-                        <span class="precio">13.50€</span>
-                    </article>
-                </div>
-            </section>
-        </main>
+                <article class="plato">
+                    <img src="img/Al Pesto.jpg" alt="Pizza Al Pesto" class="img-plato">
+                    <h4>Al Pesto</h4>
+                    <p>Base blanca de mozzarella, tomates cherry, piñones y pesto casero.</p>
+                    <span class="precio">13.50€</span>
+                </article>
+            </div>
+        </section>
+        <section id="postres" class="seccion-menu">
+            <h3 class="encabezado-categoría">POSTRES</h3>
+            <div class="menu-cuadricula">
+                <article class="plato">
+                    <img src="img/Amaretti.jpg" alt="Amaretti" class="img-plato">
+                    <h4>Amaretti</h4>
+                    <p>Galletas crujientes de almendra amarga, perfectas para acompañar con un
+                        café espresso.</p>
+                    <span class="precio">5.00€</span>
+                </article>
+
+                <article class="plato">
+                    <img src="img/Bonet.jpg" alt="Bonèt" class="img-plato">
+                    <h4>Bonèt</h4>
+                    <p>Pudin piamontés de chocolate, amaretti y café, con un toque suave de caramelo.</p>
+                    <span class="precio">6.50€</span>
+                </article>
+
+                <article class="plato">
+                    <img src="img/Canestrelli.jpg" alt="Canestrelli" class="img-plato">
+                    <h4>Canestrelli</h4>
+                    <p>Galletas de mantequilla en forma de flor con azúcar glass, originarias de
+                        Liguria.</p>
+                    <span class="precio">5.50€</span>
+                </article>
+            </div>
+        </section>
+
+    </main>
     </div>
 
     <footer>

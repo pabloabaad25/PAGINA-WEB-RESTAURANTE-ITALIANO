@@ -18,7 +18,10 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--fuente-tech);
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -56,7 +59,8 @@ h1, h2, h3, h4 {
     transition: 0.3s;
 }
 
-.nav-links a.active, .nav-links a:hover {
+.nav-links a.active,
+.nav-links a:hover {
     color: var(--neon-azul);
     text-shadow: 0 0 8px var(--neon-azul);
 }
@@ -68,7 +72,7 @@ h1, h2, h3, h4 {
 }
 
 .logo-img {
-    height: 50px; 
+    height: 50px;
     width: auto;
     filter: drop-shadow(0 0 5px var(--neon-azul));
 }
@@ -179,8 +183,10 @@ h1, h2, h3, h4 {
 .plato::before {
     content: '';
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 2px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
     background: var(--neon-morado);
     transform: scaleX(0);
     transition: 0.4s;
@@ -227,10 +233,10 @@ footer {
 .img-plato {
     width: 100%;
     height: 200px;
-    object-fit: cover; 
+    object-fit: cover;
     border-bottom: 2px solid var(--neon-azul);
     margin-bottom: 15px;
-    filter: grayscale(20%) brightness(80%); 
+    filter: grayscale(20%) brightness(80%);
     transition: 0.4s;
 }
 
@@ -244,14 +250,14 @@ footer {
     .contenedor-diseño {
         flex-direction: column;
     }
-    
+
     .sidebar {
         width: 100%;
         box-sizing: border-box;
         border-right: none;
         border-bottom: 1px solid #333;
     }
-    
+
     .menu-nav {
         display: flex;
         justify-content: space-around;
